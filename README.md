@@ -13,16 +13,20 @@ make -j$(nproc) USE_OPENMP=1
 make PREFIX=~/openblas install
 ```
 
-## Execute All Tests
-
-```bash
-./execute.sh
-```
-
-## Single Compilation & Execution
+## Compile & Execute One Test
 
 ```bash
 ./compile.sh <matrix-size>
 ./main
 ./mainCuda
 ```
+
+## Compile & Execute All Tests
+
+```bash
+./execute.sh
+```
+
+### Sample Results
+
+![Performance v.s. Matrix Size](plot.png)
