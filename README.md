@@ -1,5 +1,9 @@
 # General Matrix Multiplication (GEMM)
 
+## White Paper
+
+https://github.com/davisethan/gemm/blob/main/High_Performance_Matrix_Multiplication.pdf
+
 ## Installation
 
 ```bash
