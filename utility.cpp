@@ -59,6 +59,7 @@ void transposeMatrix(double *A)
  * @brief Frobenius norm residual
  * @param A First matrix
  * @param B Second matrix
+ * @return Frobenius norm residual
  */
 double frobeniusNorm(double *A, double *B)
 {
