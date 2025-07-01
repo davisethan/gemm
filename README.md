@@ -29,4 +29,10 @@ make PREFIX=~/openblas install
 
 ### Sample Results
 
-![Performance v.s. Matrix Size](plot.png)
+Plotted are sample means with confidence intervals of FLOPS that were calculated from 30 runtimes for each algorithm and matrix size pair and resampled 10,000 times with replacement using bootstrapping.
+
+![Performance v.s. Matrix Size](gpu.png)
+
+![Performance v.s. Matrix Size](cpu.png)
+
+![Detailed Performance v.s. Matrix Size](table.png)
