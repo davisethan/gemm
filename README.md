@@ -27,7 +27,7 @@ make PREFIX=~/openblas install
 ./execute.sh
 ```
 
-### Sample Results
+## Sample Results
 
 Plotted are sample means with confidence intervals of FLOPS that were calculated from 30 runtimes for each algorithm and matrix size pair and resampled 10,000 times with replacement using bootstrapping.
 
